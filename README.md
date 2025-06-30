@@ -61,7 +61,12 @@ pip install -r requirements.txt
 ## ✅ Requirements
 
 * Python 3.8+
-* rich
+typer	Création de la CLI et interface interactive
+rich	Affichage coloré et convivial dans le terminal (tables, prompts, etc.)
+hashlib	Calcul du hash SHA256 (inclus dans Python standard)
+pathlib	Manipulation des chemins de fichiers (standard Python)
+json	Sauvegarde et lecture des snapshots (standard Python)
+os, sys
 
 ````
 
@@ -71,9 +76,11 @@ pip install -r requirements.txt
 
 ```txt
 rich
+typer
+hashlib
+pathlib
+os
 ````
-
-Ajoute d'autres dépendances ici si tu en utilises (comme `click`, `argparse`, etc.).
 
 ---
 
