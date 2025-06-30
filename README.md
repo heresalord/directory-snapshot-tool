@@ -25,3 +25,87 @@ Directory Snapshot Tool by KMS STUDIO DEV (Du-rock KOUMASSI)  The Directory Snap
 
 ```bash
 python main.py
+````
+
+Interactive menu will let you:
+
+* Take a snapshot
+* Compare snapshots
+* Exit safely
+
+---
+
+## 📂 Project Structure
+
+```
+directory_snapshot_tool/
+├── main.py              # CLI entry point
+├── snapshot.py          # Snapshot creation logic
+├── compare.py           # Snapshot comparison logic
+├── utils.py             # Hashing, formatting, timestamp utilities
+├── snapshots/           # Stores snapshot .json files
+└── assets/
+    └── banner.txt       # ASCII banner
+```
+
+---
+
+## 🔧 Installation
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## ✅ Requirements
+
+* Python 3.8+
+* rich
+
+````
+
+---
+
+## 🔹 2. `requirements.txt`
+
+```txt
+rich
+````
+
+Ajoute d'autres dépendances ici si tu en utilises (comme `click`, `argparse`, etc.).
+
+---
+
+## 🔹 3. `.gitignore`
+
+```gitignore
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore virtual environments
+.venv/
+env/
+venv/
+
+# Ignore snapshots
+snapshots/*.json
+
+# Ignore system files
+.DS_Store
+```
+
+---
+
+## 🔹 4. `LICENSE` (MIT example)
+
+```txt
+MIT License
+
+Copyright (c) 2025 [Your Name]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy...
+(full MIT license here)
+```
+
