@@ -1,0 +1,4 @@
+Python 3.8+
+rich
+OS
+Sys
